@@ -23,7 +23,7 @@ import json
 import numpy as np
 import warnings
 
-from . import ants_image as iio
+import ants_image as iio
 from .. import utils
 from .. import registration as reg
 
