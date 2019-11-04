@@ -23,7 +23,6 @@ import json
 import numpy as np
 import warnings
 
-import ants_image as iio
 from .. import utils
 from .. import registration as reg
 
@@ -587,3 +586,5 @@ def image_write(image, filename, ri=False):
 
     if ri:
         return image
+
+from . import ants_image as iio
